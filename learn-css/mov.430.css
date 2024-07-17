@@ -1,0 +1,9 @@
+@media (max-width:430px) {
+    .home_1{
+        width: 100%;
+        height: 10vh;
+        position: relative;
+        top: 20vh;
+    
+    }
+}

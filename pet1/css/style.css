@@ -1,0 +1,135 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    position: fixed;
+}
+header .first-nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    justify-content: space-between;
+}
+header .first-nav .logo{
+    width: 10%;
+    height: 70%;
+    position: relative;
+    left: 5%;
+}
+header .first-nav .logo img{
+    width: 100%;
+    height: 100%;
+}
+header .first-nav .search-nav{
+    width: 30%;
+    height: 50%;
+    background-color: transparent;
+    position: relative;
+    left: 7%;
+}
+header .first-nav .search-nav .nav-search1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+header .first-nav .search-nav .nav-search1 a{
+    text-decoration: none;
+    color:  black;
+    font-size: 18px;
+
+}
+header .first-nav .search-nav .nav-search1 a:hover{
+    color: aqua;
+}
+header .first-nav .search-nav .nav-search1 input{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 28px; */
+    outline: none;
+    border: none;
+    font-weight: 500;
+    /* transition: 0.8s; */
+    background-color: transparent;
+}
+
+header .first-nav .support{
+    width: 30%;
+    height: auto;
+   position: relative;
+   left: 2%;
+   display: flex;
+}
+header .first-nav .support a{
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+header .first-nav .support a:hover{
+    color: aqua;
+}
+header .first-nav .support .a-1{
+    text-decoration: none;
+    
+    
+
+}
+header .first-nav .support .a-2{
+    text-decoration: none;
+    
+    position: relative;
+    left: 15%;
+
+}
+header .first-nav .support .a-3{
+    text-decoration: none;
+    
+    position: relative;
+    left: 30%;
+
+}
+header .first-nav .support .a-4{
+    text-decoration: none;
+    position: relative;
+    left: 45%;
+
+}
+
+
+header .second-nav{
+    width: 100%;
+    height: 5vh;
+    background-color: brown;
+}
+header .second-nav .lev-1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+}
+header .second-nav .lev-1 li a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+header .second-nav .lev-1 a:hover{
+    color: rgb(128, 241, 241);
+}
+#click{
+    display: none;
+}

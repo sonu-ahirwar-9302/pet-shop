@@ -1,0 +1,18 @@
+{
+    "user":[
+        {
+            "fname":"sonu",
+            "lname":"ahirwar"
+        },
+        {
+            "fname":"atul",
+            "lname":"mishra"
+        }
+    ],
+    "admin":[
+        {
+            "adminName":"chanchal",
+            "passWord":"123456"
+        }
+    ]
+}

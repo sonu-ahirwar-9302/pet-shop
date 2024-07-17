@@ -1,0 +1,196 @@
+@media (max-width:920px) {
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        width: 100%;
+        height: 15vh;
+        position: fixed;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, .6);
+    }
+    header .hedding-1{
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        display: none;
+        
+        
+    }
+    header .logo{
+        width: 100%;
+        height: 10vh;
+        background-color: transparent;
+        display: block;
+        
+    }
+    header .logo .logo-1{
+        width: 25%;
+        height: 100%;
+        position: relative;
+        left: 5%;
+    }
+    header .logo .logo-1 img{
+        width: 100%;
+        height: 100%;
+    }
+    header .logo .search{
+        width: 30%;
+        height: 50%;
+        position: relative;
+        z-index: 1;
+        bottom: 80%;
+        left: 40%;
+               
+    }
+    header .logo .login{
+        width: 100%;
+        height: 5vh;
+        background-color: transparent;
+        position: relative;
+        z-index: 1;
+        bottom: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    header .logo .login a{
+        position: relative;
+        left: 0%;
+    }
+    header .third-sec{
+        width: 380px;
+        height: 100%;
+        background-color: white;
+        position: absolute;
+        z-index: 1;
+        left: -100%;
+        top: 15%;
+        transition: 2s ease-in;
+    
+    }
+    header .third-sec .menu-2{
+        width: 100%;
+        height: 100%;
+        display: block;
+        list-style: none;
+        position: relative;
+        
+
+        background-color: red;
+        
+    }
+    header .third-sec .menu-2 li a{
+        text-decoration: none;
+        font-size: large;
+        font-weight: 600;
+        position: relative;
+        left: 10%;
+        margin-top: 20px;
+        color: rgb(66, 65, 65);
+    }
+    header .myicon{
+        position: relative;
+        bottom: 43%;
+        left: 85%;
+    }
+    header .myicon i{
+        font-size: x-large;
+        font-weight: bold;
+    }
+    .myicon{
+        display: block;
+    }
+    #click:checked ~ .myicon i::before{
+        content: "\f00d";  /** \f00d **/
+    }
+
+    #click:checked ~ .third-sec{
+        left: 0%;
+    }
+
+    /**********************header css end******************* */
+/* ----------------------------footer start------------------------------ */
+.footer{
+    position: relative;
+    top: 30vh;
+    width: 100%;
+    padding: 0rem 0rem;
+    height: 110vh;
+    background-color: transparent;
+    border-top: 1px solid gray;
+}
+.footer .footer-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 60%;
+    
+    background-color: transparent;
+}
+.footer .footer-1 .had{
+    width: 40%;
+    height: 20%;
+    background-color: transparent;
+}
+
+.footer .footer-1 .had-1{
+    width: 40%;
+    height: 20%;
+    background-color: transparent;
+}
+.footer .footer-1 .had-2{
+    width: 30%;
+    height: 20%;
+    position: relative;
+
+    background-color: transparent;
+}
+
+.footer .footer-1 .pay{
+    width: 55%;
+    height: 30%;
+    position: relative;
+    /* left: 5%; */
+    background-color: transparent;
+}
+.footer .footer-1 .pay .google .leave{
+    width: 100%;
+    height: 35vh;
+    margin-top: 12px;
+}
+
+
+.footer .free{
+    width: 100%;
+    height: 30%;
+    background-color: transparent;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.footer .free .shopp{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+
+.footer .insta{
+    width: 100%;
+    height: 10%;
+    position: relative;
+    top: 30%;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+}
+}

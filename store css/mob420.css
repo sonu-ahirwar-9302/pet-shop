@@ -1,0 +1,471 @@
+@media (max-width:420px) {
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        width: 100%;
+        height: 15vh;
+        position: fixed;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 1);
+    }
+    header .hedding-1{
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        display: none;
+        
+        
+    }
+    header .logo{
+        width: 100%;
+        height: 10vh;
+        background-color: transparent;
+        display: block;
+        
+    }
+    header .logo .logo-1{
+        width: 25%;
+        height: 100%;
+        position: relative;
+        left: 5%;
+    }
+    header .logo .logo-1 img{
+        width: 100%;
+        height: 100%;
+    }
+    header .logo .search{
+        width: 30%;
+        height: 50%;
+        position: relative;
+        z-index: 1;
+        bottom: 80%;
+        left: 40%;
+               
+    }
+    header .logo .login{
+        width: 100%;
+        height: 5vh;
+        background-color: transparent;
+        position: relative;
+        z-index: 1;
+        bottom: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    header .logo .login a{
+        position: relative;
+        left: 0%;
+        font-size: small;
+    }
+    header .third-sec{
+        width: 70%;
+        height: 80vh;
+        background-color: transparent;
+        position: absolute;
+        z-index: 1;
+        left: -100%;
+        top: 15%;
+        transition: 2s ease-in;
+        position: relative;
+        gap: 10%;
+    
+    }
+    header .third-sec .menu-2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        list-style: none;
+        position: relative;
+        gap: 5%;
+        border-radius: 15px;
+        
+
+        background-color: gray;
+        
+    }
+    header .third-sec .menu-2 li a{
+        text-decoration: none;
+        font-size: large;
+        flex-direction: column;
+        font-weight: 600;
+        position: relative;
+        padding: 10px 10px;
+        left: 10%;
+        margin-top: 20px;
+        background-color: transparent;
+        color: rgb(66, 65, 65);
+        margin-top: 30px;
+    }
+
+    header .third-sec .menu-2 li .a_1{
+        text-decoration: none;
+        font-size: large;
+        font-weight: 600;
+        position: relative;
+        right: 110px;
+        /* left: 10%; */
+        /* margin-top: 20px; */
+        color: rgb(0, 0, 0);
+    }
+
+    header .third-sec .menu-2 li .a_2{
+        text-decoration: none;
+        font-size: large;
+        font-weight: 600;
+        position: relative;
+        right: 110px;
+        /* left: 10%; */
+        /* margin-top: 20px; */
+        color: rgb(0, 0, 0);
+    }
+    header .third-sec .menu-2 li .a_4{
+        text-decoration: none;
+        font-size: large;
+        font-weight: 600;
+        position: relative;
+        right: 100px;
+        /* left: 10%; */
+        /* margin-top: 20px; */
+        color: rgb(0, 0, 0);
+    }
+    header .third-sec .menu-2 li .a_5{
+        text-decoration: none;
+        font-size: large;
+        font-weight: 600;
+        position: relative;
+        right: 45px;
+        /* left: 10%; */
+        /* margin-top: 20px; */
+        color: rgb(0, 0, 0);
+    }
+    header .third-sec .menu-2 li .a_6{
+        text-decoration: none;
+        font-size: large;
+        font-weight: 600;
+        position: relative;
+        right: 50px;
+        /* left: 10%; */
+        /* margin-top: 20px; */
+        color: rgb(0, 0, 0);
+    }
+    header .third-sec .menu-2 li .a_8{
+        text-decoration: none;
+        font-size: large;
+        font-weight: 600;
+        position: relative;
+        right: 85px;
+        /* left: 10%; */
+        /* margin-top: 20px; */
+        color: rgb(0, 0, 0);
+    }
+    header .third-sec .menu-2 li .a_9{
+        text-decoration: none;
+        font-size: large;
+        font-weight: 600;
+        position: relative;
+        right: 75px;
+        /* left: 10%; */
+        /* margin-top: 20px; */
+        color: rgb(0, 0, 0);
+    }
+    header .myicon{
+        position: relative;
+        bottom: 43%;
+        left: 85%;
+        width: 5%;
+    }
+    header .myicon i{
+        font-size: x-large;
+        font-weight: bold;
+    }
+    .myicon{
+        display: block;
+    }
+    #click:checked ~ .myicon i::before{
+        content: "\f00d";  /** \f00d **/
+    }
+
+    #click:checked ~ .third-sec{
+        left: 0%;
+    }
+
+    /**********************header css end******************* */
+    .section_home{
+        width: 100%;
+        height: 20vh;
+        background-color: rgba(255, 136, 0, .5);
+        position: relative;
+        top: 19vh;
+        display: flex;
+        align-items: center;
+    }
+    .section_home .im .h3{
+        width: 100%;
+        height: 30%;
+        position: relative;
+        left: 0%;
+        top: 20%;
+        font-size: large;
+        background-color: transparent;
+        
+    }
+
+    .location .first-div .loc{
+        width: 30%;
+        height: 1%;
+        top: 1%;
+        background-color: transparent;
+        
+        position: relative;
+        
+    }
+
+
+    
+    .location{
+        width: 100%;
+        height: 400vh;
+        background-color: rgba(234, 232, 232, 0.829);
+        position: relative;
+        top: 19vh;
+    }
+
+    .location .first-div{
+        width: 90%;
+        height: 100%;
+        position: relative;
+        left: 5%;
+        background-color: transparent;
+    }
+
+    .location .first-div .second-div{
+        width: 100%;
+        height: 96%;
+        position: relative;
+        top: 1%;
+        background-color: transparent;
+        display: block;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-around;
+        border-top: 1px solid gray;
+        
+    
+    }
+
+    .location .first-div .second-div .panjab{
+        width: 100%;
+        height: 7.1%;
+        display: flex;
+        border-radius: 10px;
+        background-color: white;
+        position: relative;
+        top: 1%;
+        margin-top: 30px;
+    }
+    .location .first-div .second-div .panjab .bagh .sto{
+        width: 100%;
+        background-color: transparent;
+        font-size: large;
+    }
+    .location .first-div .second-div .panjab .bagh .para_12{
+        position: relative;
+        top: 5%;
+        font-size: small;
+    }
+
+    .location .first-div .second-div .panjab .bagh .btn_1{
+        padding: 4px 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(119, 190, 218);
+        position: relative;
+        top: 15%;
+        right: 3%;
+    }
+    .location .first-div .second-div .panjab .bagh .btn_1 a .para_13{
+        color: black;
+        font-size: small;
+    }
+
+    .location .first-div .second-div .panjab .bagh .btn_2{
+        padding: 4px 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(119, 190, 218);
+        position: relative;
+        top: 15%;
+        right: 2%;
+    }
+    .location .first-div .second-div .panjab .bagh .view{
+        text-decoration: none;
+        position: relative;
+        top: 20%;
+        right: 25%;
+        font-size: small;
+        background-color: transparent;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* ***********learn css start********** */
+    .home_1{
+        width: 100%;
+        height: 40vh;
+        position: relative;
+        top: 20vh;
+    
+    }
+    .home_2{
+        width: 100%;
+        height: 70vh;
+        background-color: transparent;
+        position: absolute;
+        text-align: center;
+        
+        
+    }
+
+    .home_2 .dog_1{
+        width: 80%;
+        height: 100%;
+        position: relative;
+        left: 10%;
+        bottom: 20%;
+        
+        background-color: transparent;
+    }
+    .home_2 .dog_1 img{
+        width: 70%;
+        height: 20%;
+        position: relative;
+        top: 2.8%;
+    
+    }
+
+
+
+/* ----------------------------footer start------------------------------ */
+.footer{
+    position: relative;
+    top: 30vh;
+    width: 100%;
+    padding: 0rem 0rem;
+    height: 200vh;
+    background-color: transparent;
+    border-top: 1px solid gray;
+    }
+    .footer .footer-1{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 60%;
+    
+    background-color: transparent;
+    }
+    .footer .footer-1 .had{
+    width: 95%;
+    height: 20%;
+    position: relative;
+    left: 5%;
+    background-color: transparent;
+    }
+    
+    .footer .footer-1 .had-1{
+    width: 95%;
+    height: 20%;
+    position: relative;
+    left: 5%;
+    background-color: transparent;
+    }
+    .footer .footer-1 .had-2{
+    width: 95%;
+    height: 20%;
+    position: relative;
+    left: 5%;
+    
+    background-color: transparent;
+    }
+    
+    .footer .footer-1 .pay{
+    width: 95%;
+    height: 30%;
+    position: relative;
+    left: 2.5%;
+    top: 5%;
+    background-color: transparent;
+    }
+    .footer .footer-1 .pay .google .leave{
+    width: 100%;
+    height: 35vh;
+    margin-top: 12px;
+    }
+    
+    
+    .footer .free{
+    width: 100%;
+    height: 30%;
+    background-color: transparent;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    }
+    .footer .free .shopp{
+    width: 30%;
+    height: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    }
+    
+    
+    .footer .insta{
+    width: 100%;
+    height: 10%;
+    position: relative;
+    top: 30%;
+    display: block;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    }
+    
+    footer .insta .you a{
+        text-decoration: none;
+        padding: 15px 15px;
+        background-color: black;
+        font-size: large;
+        margin: 10px;
+        background-color: gray;
+        border-radius: 40%;
+        color: black;
+        position: relative;
+        left: 30%;
+    }
+    footer .insta .addres{
+        width: 100%;
+        background-color: transparent;
+    }
+    footer .insta .addres .dress{
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+}

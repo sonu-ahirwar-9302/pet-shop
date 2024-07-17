@@ -1,0 +1,406 @@
+@media (max-width:920px) {
+    
+        body{
+            overflow-x: hidden;
+        }
+        header{
+            width: 100%;
+            height: 15vh;
+            position: fixed;
+            z-index: 1;
+            background-color: rgba(184, 175, 175, 0.664);
+        }
+        header .hedding-1{
+            width: 100%;
+            height: auto;
+            background-color: transparent;
+            display: none;
+            
+            
+        }
+        header .logo{
+            width: 100%;
+            height: 10vh;
+            background-color: transparent;
+            display: block;
+            
+        }
+        header .logo .logo-1{
+            width: 25%;
+            height: 100%;
+            position: relative;
+            left: 5%;
+        }
+        header .logo .logo-1 img{
+            width: 100%;
+            height: 100%;
+        }
+        header .logo .search{
+            width: 30%;
+            height: 50%;
+            position: relative;
+            z-index: 1;
+            bottom: 80%;
+            left: 40%;
+                   
+        }
+        header .logo .login{
+            width: 100%;
+            height: 5vh;
+            background-color: transparent;
+            position: relative;
+            z-index: 1;
+            bottom: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        header .logo .login a{
+            position: relative;
+            left: 0%;
+        }
+        header .third-sec{
+            width: 380px;
+            height: 90vh;
+            background-color: gray;
+            position: absolute;
+            z-index: 1;
+            left: -100%;
+            top: 10%;
+            transition: 2s ease-in;
+        
+        }
+        header .third-sec .menu-2{
+            width: 100%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            position: relative;
+            gap: 5%;
+            
+    
+            background-color: transparent;
+            
+        }
+        header .third-sec .menu-2 li a{
+            text-decoration: none;
+            font-size: large;
+            font-weight: 600;
+            position: relative;
+            right: 40%;
+            /* left: 10%; */
+            /* margin-top: 20px; */
+            color: rgb(0, 0, 0);
+        }
+        header .third-sec .menu-2 li .a_1{
+            text-decoration: none;
+            font-size: large;
+            font-weight: 600;
+            position: relative;
+            right: 110px;
+            /* left: 10%; */
+            /* margin-top: 20px; */
+            color: rgb(0, 0, 0);
+        }
+
+        header .third-sec .menu-2 li .a_2{
+            text-decoration: none;
+            font-size: large;
+            font-weight: 600;
+            position: relative;
+            right: 110px;
+            /* left: 10%; */
+            /* margin-top: 20px; */
+            color: rgb(0, 0, 0);
+        }
+        header .third-sec .menu-2 li .a_4{
+            text-decoration: none;
+            font-size: large;
+            font-weight: 600;
+            position: relative;
+            right: 100px;
+            /* left: 10%; */
+            /* margin-top: 20px; */
+            color: rgb(0, 0, 0);
+        }
+        header .third-sec .menu-2 li .a_5{
+            text-decoration: none;
+            font-size: large;
+            font-weight: 600;
+            position: relative;
+            right: 45px;
+            /* left: 10%; */
+            /* margin-top: 20px; */
+            color: rgb(0, 0, 0);
+        }
+        header .third-sec .menu-2 li .a_6{
+            text-decoration: none;
+            font-size: large;
+            font-weight: 600;
+            position: relative;
+            right: 50px;
+            /* left: 10%; */
+            /* margin-top: 20px; */
+            color: rgb(0, 0, 0);
+        }
+        header .third-sec .menu-2 li .a_8{
+            text-decoration: none;
+            font-size: large;
+            font-weight: 600;
+            position: relative;
+            right: 85px;
+            /* left: 10%; */
+            /* margin-top: 20px; */
+            color: rgb(0, 0, 0);
+        }
+        header .third-sec .menu-2 li .a_9{
+            text-decoration: none;
+            font-size: large;
+            font-weight: 600;
+            position: relative;
+            right: 75px;
+            /* left: 10%; */
+            /* margin-top: 20px; */
+            color: rgb(0, 0, 0);
+        }
+        header .myicon{
+            position: relative;
+            bottom: 43%;
+            left: 85%;
+        }
+        header .myicon i{
+            font-size: x-large;
+            font-weight: bold;
+        }
+        .myicon{
+            display: block;
+            cursor: pointer;
+        }
+        #click:checked ~ .myicon i::before{
+            content: "\f00d";  /** \f00d **/
+        }
+    
+        #click:checked ~ .third-sec{
+            left: 0%;
+        }
+
+
+        .slider{
+            display: none;
+           
+        }
+        section .image-pets{
+            display: none;
+        }
+        section .pet-food{
+            width: 100%;
+            height: 4vh;
+            background: hsl(190, 86%, 86%);
+            justify-content: center;
+            align-items: center;
+            display: none;
+        }
+        section .image-pets .img-1{
+
+            display: none;
+            justify-content: space-around;
+        }
+        
+     .paw-fect .product{
+        width: 100%;
+        height: 150vh;
+        background-color: rgba(255, 182, 46, 0.505);
+    }
+    .paw-fect .product .produc-1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        /* padding: 0rem 1rem; */
+        /* gap: 1%; */
+    }
+    .paw-fect .product .produc-1 .image-1{
+        width: 30%;
+        height: 40%;
+        background-color: white;
+        /* margin-left: 12px; */
+        border-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border: 1px solid brown;
+    }
+    .paw-fect .product .produc-1 .image-1 img{
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .paw-fect .product .produc-1 .image-1 .para-2{
+   
+        align-items: center;
+        color: white;
+        position: relative;
+        align-items: center;
+    }
+    .paw-fect .product .produc-1 .image-1 .para{
+        width: 100%;
+        margin-left: 10px;
+        font-size: small;
+        position: relative;
+        top: 5%;
+    }
+
+    .sara-food .pets {
+        width: 100%;
+        height: 170vh;
+        background: linear-gradient(rgb(241, 152, 152),rgb(223, 101, 101),rgb(184, 55, 55));
+    }
+    .sara-food .pets .food{
+        width: 100%;
+        height: 8%;
+        background-color: rgb(195, 195, 195);
+    }
+
+    .sara-food .pets .food .fresh{
+        width: 80%;
+        height: 50%;
+        position: relative;
+        left: 5%;
+        font-size: xx-large;
+        font-weight: bolder;;
+    }
+    .sara-food .pets .parent{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        justify-content: space-around;
+        position: relative;
+        gap: 5%;
+    }
+    .sara-food .pets .parent .image{
+        width: 35%;
+        height: 50%;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 10px;
+        border: 1px solid rgb(109, 109, 255);
+    
+    }
+
+
+    .food-brand .food-hedding{
+        width: 100%;
+        height: 15vh;
+        background-color: aquamarine;
+    }
+    .food-brand .food-hedding h3{
+        font-size: x-large;
+        font-weight: 800;
+        position: relative;
+        top: 28px;
+        left: 32px;
+    }
+
+    .food-brand .box{
+        width: 100%;
+        height: 50vh;
+        background-color: chocolate;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+    }
+
+
+/* ----------------------------footer start------------------------------ */
+.footer{
+    position: relative;
+    top: 30vh;
+    width: 100%;
+    padding: 0rem 0rem;
+    height: 110vh;
+    background-color: transparent;
+    border-top: 1px solid gray;
+}
+.footer .footer-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 60%;
+    
+    background-color: transparent;
+}
+.footer .footer-1 .had{
+    width: 40%;
+    height: 20%;
+    background-color: transparent;
+}
+
+.footer .footer-1 .had-1{
+    width: 40%;
+    height: 20%;
+    background-color: transparent;
+}
+.footer .footer-1 .had-2{
+    width: 30%;
+    height: 20%;
+    position: relative;
+
+    background-color: transparent;
+}
+
+.footer .footer-1 .pay{
+    width: 55%;
+    height: 30%;
+    position: relative;
+    /* left: 5%; */
+    background-color: transparent;
+}
+.footer .footer-1 .pay .google .leave{
+    width: 100%;
+    height: 35vh;
+    margin-top: 12px;
+}
+
+
+.footer .free{
+    width: 100%;
+    height: 30%;
+    background-color: transparent;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.footer .free .shopp{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+
+.footer .insta{
+    width: 100%;
+    height: 10%;
+    position: relative;
+    top: 30%;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+}
+}
+    

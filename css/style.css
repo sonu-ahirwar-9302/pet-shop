@@ -1,0 +1,905 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 19vh;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+/* header .hedding-1 a:hover{
+    border-bottom: 1px solid white;
+} */
+header .logo{
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header .logo .logo-1{
+    width: 15%;
+    height: 100%;
+}
+header .logo .logo-1 img{
+    width: 100%;
+    height: 100%;
+}
+header .logo .logo-1 a{
+    text-decoration: none;
+}
+header .logo .search{
+    width: 30%;
+    height: 50%;
+    
+}
+header .logo .search .search-1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 1px gray;
+    
+}
+header .logo .search .search-1 input{
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+/* header .logo .search .search-1 input[text]{
+    display: none;
+} */
+header .logo .search .search-1 i{
+    width: 10%;
+    position: relative;
+    left: 5%;
+    font-size: large;
+    font-weight: 800;
+    cursor: pointer;
+}
+header .logo .login{
+    width: auto;
+    height: auto;
+    position: relative;
+    grid: 5%;
+}
+header .logo .login a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+header .logo .login .a-1{
+    position: relative;
+    right: 30%;
+}
+header .logo .login .a-2{
+    position: relative;
+    right: 15%;
+}
+header .logo .login a:hover{
+    color: aqua;
+}
+
+
+header .third-sec{
+    width: 100%;
+    height: 9vh;
+    background-color: transparent;
+    /* position: relative; */
+
+}
+header .third-sec .menu-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    position: relative;
+    gap: 2%;
+}
+header .third-sec .menu-2 li a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+    position: relative;
+    color: rgb(66, 65, 65);
+}
+header .third-sec .menu-2 li a:hover{
+    color: rgb(173, 45, 13);
+}
+#click{
+    display: none;
+}
+.myicon{
+    display: none;
+}
+
+/* -------------------------------end nav css------------------------------------------------------ */
+
+section{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 19vh;
+    /* z-index: -1; */
+    
+    
+}
+section .pet-food{
+    width: 100%;
+    height: 4vh;
+    background: hsl(190, 86%, 86%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+section .pet-food p{
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}
+section .image-pets{
+    width: 100%;
+    height: 28vh;
+}
+section .image-pets .img-1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+section .image-pets .img-1 a{
+    text-decoration: none;
+    /* width: 100%;
+    height: 100%;  */
+}
+section .image-pets .img-1 a p{
+    color: black;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+section .image-pets .img-1 a img{
+    width: 100%;
+    height: 80%;
+}
+section .dogs-image{
+    width: 100%;
+    height: 40vh;
+}
+section .dogs-image img{
+    width: 100%;
+    height: 100%;
+}
+/* ----------------------------------slider image start css-------------------------------- */
+.slider{
+    width: 100%;
+    height: 50vh;
+   
+}
+.slider .slider-1{
+    width: 500%;
+    height: 100%;
+    display: flex;
+    overflow-x: hidden;
+    animation-name: slider;
+    animation-delay: 2s;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+
+}
+.slider .slider-1 img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes slider {
+    0%{
+        left: -0%;
+    }
+    10%{
+        left: -100%;
+    }
+    20%{
+        left: -200%;
+    }
+    30%{
+        left: -300%;
+    }
+    40%{
+        left: -400%;
+    }
+    50%{
+        left: -400%;
+    }
+    60%{
+        left: -300%;
+    }
+    70%{
+        left: -200%;
+    }
+    80%{
+        left: -100%;
+    }
+    90%{
+        left: 0%;
+    }
+}
+.inner1{
+    position: absolute;
+    left: 50%;
+    margin-top: 87px;
+}
+.inner1 input{
+    position: static;
+}
+/* ----------------------------------slider image start css-------------------------------- */
+
+
+/* ---------------------------section start css------------------------------- */
+.paw-fect{
+    width: 100%;
+    height: auto;
+}
+.paw-fect .pairing{
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    align-items: center;
+    
+}
+.paw-fect .pairing h3{
+    font-size: x-large;
+    font-weight: 800;
+    position: relative;
+    top: 12px;
+    left: 32px;
+    width: 50%;
+}
+.paw-fect .pairing p{
+    position: relative;
+    top: 12px;
+    left: 32px;
+    font-size: large;
+    font-weight: 500;
+    width: 50%;
+}
+
+.paw-fect .product{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 182, 46, 0.505);
+}
+.paw-fect .product .produc-1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 1rem;
+    gap: 2%;
+}
+.paw-fect .product .produc-1 .image-1{
+    width: 20%;
+    height: 70%;
+    background-color: white;
+    margin-left: 12px;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid brown;
+}
+.paw-fect .product .produc-1 .image-1 img{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.paw-fect .product .produc-1 .image-1 .up-to{
+    width: 100%;
+    height: 3vh;
+    background-color: #121212BF;
+    justify-content: center;
+    display: flex;
+}
+.paw-fect .product .produc-1 .image-1 .para-2{
+   
+    align-items: center;
+    color: white;
+    position: relative;
+    align-items: center;
+}
+.paw-fect .product .produc-1 .image-1 .para-2 span{
+    color: rgb(237, 90, 27);
+}
+
+.paw-fect .product .produc-1 .image-1 .para{
+    width: 100%;
+    margin-left: 10px;
+}
+.paw-fect .product .produc-1 .image-1 .rupee{
+    display: flex;
+    position: relative;
+    top: 8%;
+    left: 8%;
+    gap: 8%;
+}
+.paw-fect .product .produc-1 .image-1 .rupee del{
+    color: rgb(77, 77, 162);
+}
+
+.paw-fect .product .produc-1 .image-1 .rupee del i{
+    font-size: small;
+}
+.paw-fect .product .produc-1 .image-1 .rupee ins{
+    color: blue;
+    font-size: larger;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.paw-fect .product .produc-1 .image-1 .rupee ins i{
+    font-size: smaller;
+}
+.paw-fect .product .produc-1 .image-1 .rupee .para-1{
+    font-size: large;
+    font-weight: 800;
+    color: green;
+}
+
+.paw-fect .product .produc-1 .image-1 a{
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+    top: 15%;
+    background-color:transparent;
+    /* padding: 10px; */
+}
+.paw-fect .product .produc-1 .image-1 a button{
+    width: 90%;
+    height: 7vh;
+    position: relative;
+    left: 5%;
+    border-radius: 25px;
+    background-color: brown;
+}
+.paw-fect .product .produc-1 .image-1 a button .view{
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* ---------------------------section end css------------------------------- */
+/* .offer{
+
+    width: 100%;
+    height: 60vh;
+}
+.offer .offer-1{
+    width: 100%;
+    height: 60vh;
+    background-color: red;
+}
+.offer .offer-1 .hedding{
+    width: 100%;
+    height: 30%;
+}
+.offer .offer-1 .hedding .hedding-1{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    
+}
+.offer .offer-1 .hedding h3{
+    font-size: x-large;
+    font-weight: bolder;
+   
+}
+.offer .offer-1 .made{
+    width: 100%;
+    height: 70%;
+}
+.offer .offer-1 .made .offers{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.offer .offer-1 .made .offers .farmina{
+    width: 10%;
+    height: 30%;
+}
+.offer .offer-1 .made .offers .farmina a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.offer .offer-1 .made .offers .farmina a img{
+    width: 100%;
+} */
+/* ---------------------------------section sara css start---------------------------------- */
+.sara-food{
+    width: 100%;
+    height: auto;
+}
+.sara-food .tra{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(230, 228, 228);
+
+}
+.sara-food .tra h3{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 42px;
+    position: relative;
+    top: 28%;
+    justify-content: center;
+}
+.sara-food .tra .by{
+    font-size: large;
+    font-weight: 200;
+    margin-left: 42px;
+    position: relative;
+    top: 33%;
+    justify-content: center;
+}
+
+.sara-food .pets {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(241, 152, 152),rgb(223, 101, 101),rgb(184, 55, 55));
+}
+.sara-food .pets .food{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(195, 195, 195);
+}
+.sara-food .pets .food .img{
+    width: 20%;
+    height: 50%;
+    position: relative;
+    top: 12px;
+}
+.sara-food .pets .food .img img{
+    width: 100%;
+    height: 100%;
+    font-size: xx-large;
+}
+.sara-food .pets .food .fresh{
+    width: 60%;
+    height: 50%;
+    position: relative;
+    left: 5%;
+    font-size: xx-large;
+    font-weight: bolder;;
+}
+.sara-food .pets .parent{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sara-food .pets .parent .image{
+    width: 20%;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(109, 109, 255);
+
+}
+.sara-food .pets .parent .image a{
+    text-decoration: none;
+}
+.sara-food .pets .parent .image a .eat{
+    width: 100%;
+    height: 5%;
+    background: linear-gradient(left (rgb(92, 92, 253)),right (blue));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.sara-food .pets .parent .image a .eat .meat{
+    justify-content: center;
+    font-size: large;
+    color: rgb(80, 2, 2);
+    font-weight: 500;
+    display: flex;
+}
+.sara-food .pets .parent .image a img{
+    width: 100%;
+    height: 50%;
+}
+.sara-food .pets .parent .image .point{
+    width: 100%;
+    height: 6%;
+    background-color: #121212BF;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.sara-food .pets .parent .image .point .up{
+    color: white;
+}
+.sara-food .pets .parent .image .point .up span{
+    color: rgb(237, 90, 27);
+}
+
+.sara-food .pets .parent .huft{
+    justify-content: center;
+    margin-left: 12px;
+    color: black;
+    margin-top: 12px;
+}
+.sara-food .pets .parent ins{
+    text-decoration: none;
+    color: blue;
+    font-size: large;
+    font-weight: 900;
+    margin-left: 20px;
+    position: relative;
+    top: 5%;
+}
+.sara-food .pets .parent .btn{
+    width: 90%;
+    height: 10%;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    border-radius: 25px;
+    border: none;
+    background-color: brown;
+}
+.sara-food .pets .parent .btn .view-1{
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* ---------------------------------section sara css end---------------------------------- */
+
+
+.food-brand{
+    width: 100%;
+    height: auto;
+}
+.food-brand .food-hedding{
+    width: 100%;
+    height: 20vh;
+    background-color: transparent;
+}
+.food-brand .food-hedding h3{
+    font-size: xx-large;
+    font-weight: 800;
+    position: relative;
+    top: 28px;
+    left: 32px;
+    width: 50%;
+}
+.food-brand .food-hedding p{
+    position: relative;
+    top: 28px;
+    left: 32px;
+    width: 50%;
+    font-size: x-large;
+    font-weight: 500;
+}
+.food-brand .box{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(255, 215, 147, 0.882);
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.food-brand .box .box-2{
+    width: 20%;
+    height: 80%;
+    justify-content: space-between;
+
+}
+.food-brand .box .box-2 img{
+    width: 100%;
+    height: 100%;
+}
+/* ------------section end-------- */
+
+
+/* .tail{
+    width: 100%;
+    height: auto;
+}
+.tail .tail-1{
+    width: 100%;
+    height: 15vh;
+    background-color: red;
+}
+.tail .tail-1 h3{
+    font-size: x-large;
+    font-weight: 700;
+    position: relative;
+    top: 28px;
+    left: 32px;
+}
+.tail .tail-1 p{
+    position: relative;
+    top: 28px;
+    left: 32px;
+    font-size: large;
+    font-weight: 500;
+}
+.tail .tail-1 .product-5{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+}
+.tail .tail-1 .product-5 .box-3{
+    width: 100%;
+    height: 70vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tail .tail-1 .product-5 .box-3 .product-6{
+    width: 20%;
+    height: 80%;
+    background-color: red;
+}
+.tail .tail-1 .product-5 .box-3 .product-6 a{
+    text-decoration: none;
+}
+.tail .tail-1 .product-5 .box-3 .product-6 a img{
+    width: 100%;
+    height: 80%;
+} */
+
+/* ----------------------------footer start------------------------------ */
+.footer{
+    position: relative;
+    top: 30vh;
+    width: 100%;
+    height: 100vh;
+    padding: 0rem 8rem;
+    border-top: 1px solid gray;
+    background-color: transparent;
+}
+.footer .footer-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 60%;
+    
+    background-color: transparent;
+}
+.footer .footer-1 .had{
+    width: 20%;
+    background-color: transparent;
+}
+.footer .footer-1 .had h3{
+    margin-top: 42px;
+}
+.footer .footer-1 .had ul{
+    list-style: none;
+    margin-top: 12px;
+    position: relative;
+    
+}
+.footer .footer-1 .had ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    margin-top: 12px;
+}
+.footer .footer-1 .had ul li a:hover{
+    color: rgb(248, 49, 49);
+}
+
+
+.footer .footer-1 .had-1{
+    width: 20%;
+    background-color: transparent;
+}
+.footer .footer-1 .had-1 h3{
+    margin-top: 42px;
+}
+.footer .footer-1 .had-1 ul{
+    list-style: none;
+    margin-top: 12px;
+    position: relative;
+    
+}
+.footer .footer-1 .had-1 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    margin-top: 12px;
+}
+.footer .footer-1 .had-1 ul li a:hover{
+    color: rgb(248, 49, 49);
+}
+
+.footer .footer-1 .had-2{
+    width: 20%;
+    background-color: transparent;
+}
+.footer .footer-1 .had-2 h3{
+    margin-top: 42px;
+}
+.footer .footer-1 .had-2 ul{
+    list-style: none;
+    margin-top: 12px;
+    position: relative;
+    
+}
+.footer .footer-1 .had-2 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    margin-top: 12px;
+}
+.footer .footer-1 .had-2 ul li a:hover{
+    color: rgb(248, 49, 49);
+}
+.footer .footer-1 .pay{
+    width: 30%;
+    background-color: transparent;
+}
+.footer .footer-1 .pay h4{
+    margin-top: 42px;
+}
+.footer .footer-1 .pay .google{
+    width: 100%;
+}
+
+.footer .footer-1 .pay .google a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.footer .footer-1 .pay .google a img{
+    width: 50%;
+}
+.footer .footer-1 .pay .google .leave{
+    width: 100%;
+    height: 30vh;
+    margin-top: 12px;
+}
+.footer .footer-1 .pay .google .leave .col{
+    background-color: rgb(186, 180, 180);
+    padding: 0rem 1rem;
+    width: 100%;
+    height: 100%;
+}
+.footer .footer-1 .pay .google .leave .col h5{
+    font-weight: bold;
+    margin-top: 12px;
+    position: relative;
+    top: 1%;
+}
+
+.footer .footer-1 .pay .google .leave .col .in{
+    width: 100%;
+    height: 100%;
+display: inline;
+align-items: center;
+justify-content: center;
+   
+
+}
+.footer .footer-1 .pay .google .leave .col .in input{
+    width: 100%;
+    height: 15%;
+    border: none;
+    border-radius: 2px;
+    margin-top: 12px;
+}
+
+.footer .footer-1 .pay .google .leave .col .in input::placeholder{
+    position: relative;
+    left: 5%;
+}
+.footer .footer-1 .pay .google .leave .col .in button{
+    width: 50%;
+    height: 4vh;
+    margin-left: 25%;
+    margin-top: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(251, 159, 60);
+}
+.footer .footer-1 .pay .google .leave .in button p{
+    font-size: large;
+    font-weight: 500;
+}
+
+
+.footer .footer-1 .pay .google .leave .par{
+    margin-left: 2px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+
+
+.footer .free{
+    width: 100%;
+    height: 20%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.footer .free .shopp{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.footer .free .shopp img{
+    width: 15%;
+}
+.footer .free .shopp .on{
+    position: relative;
+    left: 5%;
+}
+.footer .free .shopp .on .h4_1{
+    font-size: x-large;
+}
+.footer .insta{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .insta .you{
+    width: 40%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+footer .insta .you a{
+    text-decoration: none;
+    padding: 15px 15px;
+    background-color: black;
+    font-size: x-large;
+    margin: 10px;
+    background-color: gray;
+    border-radius: 40%;
+    color: black;
+
+}
+footer .insta .you a:hover{
+    color: white;
+    background-color: black;
+}
